@@ -1,28 +1,26 @@
 import "/home/gambi/P4/Gari-Zetu-Evolution/front-end/src/index.css";
 import video1 from "/home/gambi/P4/Gari-Zetu-Evolution/front-end/src/assets/video1.mp4";
-import image1 from "/home/gambi/P4/Gari-Zetu-Evolution/front-end/src/assets/image1.jpg";
-import image2 from "/home/gambi/P4/Gari-Zetu-Evolution/front-end/src/assets/image2.jpg";
-import image3 from "/home/gambi/P4/Gari-Zetu-Evolution/front-end/src/assets/image3.jpg";
 
-const Background = (playStatus, heroCount) => {
+
+const Background = ({playStatus, heroCount}) => {
   if (playStatus) {
     return (
       <video className="background fade-in" autoPlay loop muted>
-        <source src={video1} type="video/mp4" />
+        <source src="https://www.bmw.com/content/dam/bmw/marketBMWCOM/bmw_com/categories/freude/sky/sky-04-media-hd.mp4" type="video/mp4" />
       </video>
     );
   } 
   else if (heroCount === 0) 
   {
-    return <img src={image1} className="background fade-in" alt="image1" />
+    return <img src="https://www.topgear.com/sites/default/files/2023/08/P90492179_highRes_bmw-i7-xdrive60-m-sp%20%281%29.jpg" className="background fade-in" alt="image1" />
   } 
   else if (heroCount === 1) 
   {
-    return <img src={image2} className="background fade-in" alt="image2" />
+    return <img src="https://www.bmw.com.sg/content/dam/bmw/common/all-models/m-series/series-overview/bmw-m-series-seo-overview-ms-04.jpg" className="background fade-in" alt="image2" />
   } 
   else if (heroCount === 2) 
   {
-    return <img src={image3} className="background fade-in" alt="image3" />
+    return <img src="https://cloudfront-us-east-2.images.arcpublishing.com/reuters/U6DU4EGVOZNXPHXTMIPF7B5C64.jpg" className="background fade-in" alt="image3" />
   }
 };
 
