@@ -1,8 +1,8 @@
-import  'front-end/src/index.css'
-import video1 from "front-end/src/assets/video1.mp4";
-import image1 from "front-end/src/assets/image1.jpg";
-import image2 from "front-end/src/assets/image2.jpg";
-import image3 from "front-end/src/assets/image3.jpg";
+import  '/home/gambi/P4/Gari-Zetu-Evolution/front-end/src/index.css'
+import video1 from "/home/gambi/P4/Gari-Zetu-Evolution/front-end/src/assets/video1.mp4";
+import image1 from "/home/gambi/P4/Gari-Zetu-Evolution/front-end/src/assets/image1.jpg";
+import image2 from "/home/gambi/P4/Gari-Zetu-Evolution/front-end/src/assets/image2.jpg";
+import image3 from "/home/gambi/P4/Gari-Zetu-Evolution/front-end/src/assets/image3.jpg";
 
 const Background = (playStatus, heroCount) => {
   if (playStatus) {
