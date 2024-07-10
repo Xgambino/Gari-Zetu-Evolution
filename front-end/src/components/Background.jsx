@@ -1,5 +1,5 @@
 import React from 'react';
-import '/home/gambi/P4/Gari-Zetu-Evolution/front-end/src/index.css';
+import "../index.css";
 
 const Background = ({ playStatus, heroCount }) => {
   if (playStatus) {

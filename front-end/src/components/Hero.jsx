@@ -1,7 +1,7 @@
 import React from 'react';
-import pause_icon from '/home/gambi/P4/Gari-Zetu-Evolution/front-end/src/assets/pause_icon.png';
-import play_icon from '/home/gambi/P4/Gari-Zetu-Evolution/front-end/src/assets/play_icon.png';
-import '/home/gambi/P4/Gari-Zetu-Evolution/front-end/src/index.css';
+import pause_icon from '../assets/pause_icon.png';
+import play_icon from '../assets/play_icon.png';
+import "../index.css";
 
 const Hero = ({ heroData, setHeroCount, heroCount, setPlayStatus, playStatus }) => {
   return (

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Background from './components/Background';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
-import '/home/gambi/P4/Gari-Zetu-Evolution/front-end/src/index.css';
+import '../src/index.css';
 
 const App = () => {
   const heroData = [

@@ -55,7 +55,7 @@
   color: #262626;
 }
 .hero{
-  margin: 0px 120px;
+  margin: 20px 120px;
   margin-top: 270px;
 }
 .hero-text{
@@ -71,13 +71,13 @@
   width: fit-content;
   margin-top: 70px;
   padding: 5px 30px;
-  padding-left: 30px;
+  padding-left: 180px;
   border-radius: 60px;
-  background-color: white;
+  background-color:#292929;
   cursor: pointer;
 }
 .hero-explore p{
-  color: #292929;
+  color: white;
   font-size: 20px;
   font-weight: 600;
 }
