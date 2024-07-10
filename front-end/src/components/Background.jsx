@@ -1,6 +1,6 @@
-import React from 'react'
+import  '/home/gambi/P4/Gari-Zetu-Evolution/front-end/src/index.css'
 
-const Background = () => {
+function Background() {
   return (
     <div>Background</div>
   )
