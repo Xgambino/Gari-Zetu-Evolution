@@ -7,7 +7,7 @@ import '/home/gambi/P4/Gari-Zetu-Evolution/front-end/src/index.css';
 const App = () => {
   const heroData = [
     { text1: "Indulge", text2: "your passions" },
-    { text1: "Unlock", text2: "the power of" },
+    { text1: "Unlock", text2: "the power" },
     { text1: "Grow", text2: "your life" }
   ];
 

@@ -65,13 +65,13 @@
   line-height: 130px;
 }
 .hero-explore{
-  display: flex;
+  display: flex ;
   align-items: center;
   gap: 50px;
   width: fit-content;
   margin-top: 70px;
+  padding: 5px 30px;
   padding-left: 30px;
-  padding: 5px 8px;
   border-radius: 60px;
   background-color: white;
   cursor: pointer;
