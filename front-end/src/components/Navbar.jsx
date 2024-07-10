@@ -6,10 +6,11 @@ const Navbar = () => {
     <div className='nav'>
         <div className='nav-logo'> Gari-Zetu</div>
         <ul className='nav-menu'>
-            <li>Home</li>
-            <li>Explore</li>
             <li>About</li>
-            <li className='nav-contact'>Contact</li>
+            <li>Catalogue</li>
+            <li>News</li>
+            <li>Contact</li>
+            <li className='nav-contact'>Login/Register</li>
         </ul>
     </div>
   )
