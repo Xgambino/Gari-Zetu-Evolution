@@ -1,4 +1,4 @@
-import "/home/gambi/P4/Gari-Zetu-Evolution/front-end/src/index.css";
+import "../index.css";
 import React from 'react'
 
 const Navbar = () => {
