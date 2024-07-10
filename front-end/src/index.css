@@ -16,13 +16,19 @@
   object-fit: cover;
   z-index: -1;
 }
-@keyframes fadeIn{
-  from {opacity: 0;}
-  to {opacity: 1;}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
-.fade-in{
+
+.fade-in {
   animation: fadeIn 3000ms ease-in-out;
 }
+
 .nav{
   display: flex;
   justify-content: space-between;
