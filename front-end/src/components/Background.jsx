@@ -1,4 +1,4 @@
-import "/home/gambi/P4/Gari-Zetu-Evolution/front-end/src/index.css";
+import  'front-end/src/index.css'
 import video1 from "front-end/src/assets/video1.mp4";
 import image1 from "front-end/src/assets/image1.jpg";
 import image2 from "front-end/src/assets/image2.jpg";
